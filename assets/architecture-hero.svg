@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" fill="none">
+<defs>
+  <linearGradient id="bg" x1="80" y1="40" x2="1100" y2="690" gradientUnits="userSpaceOnUse"><stop stop-color="#071426"/><stop offset=".55" stop-color="#102B4C"/><stop offset="1" stop-color="#06111F"/></linearGradient>
+  <linearGradient id="glass" x1="500" y1="160" x2="800" y2="560" gradientUnits="userSpaceOnUse"><stop stop-color="#67E8F9" stop-opacity=".92"/><stop offset="1" stop-color="#2563EB" stop-opacity=".52"/></linearGradient>
+  <linearGradient id="side" x1="760" y1="240" x2="970" y2="540" gradientUnits="userSpaceOnUse"><stop stop-color="#164E75"/><stop offset="1" stop-color="#0B2440"/></linearGradient>
+  <linearGradient id="front" x1="400" y1="220" x2="690" y2="570" gradientUnits="userSpaceOnUse"><stop stop-color="#E0F2FE"/><stop offset="1" stop-color="#7DD3FC"/></linearGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FDE68A"/><stop offset="1" stop-color="#F59E0B"/></linearGradient>
+  <filter id="shadow" x="180" y="100" width="900" height="590" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="24"/></filter>
+  <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" stroke="#7DD3FC" stroke-opacity=".08"/></pattern>
+</defs>
+<rect width="1200" height="720" rx="28" fill="url(#bg)"/>
+<rect width="1200" height="720" rx="28" fill="url(#grid)"/>
+<circle cx="870" cy="180" r="170" fill="#0EA5E9" fill-opacity=".12"/>
+<circle cx="870" cy="180" r="120" stroke="#67E8F9" stroke-opacity=".16" stroke-width="1.5"/>
+<path d="M80 590H1120" stroke="#67E8F9" stroke-opacity=".22"/>
+<path d="M160 620L470 440L780 620L1090 440" stroke="#38BDF8" stroke-opacity=".14" stroke-width="2"/>
+<ellipse cx="675" cy="572" rx="330" ry="56" fill="#020817" fill-opacity=".8" filter="url(#shadow)"/>
+<!-- tower right face -->
+<path d="M700 214L891 119L1040 204L1040 512L700 612V214Z" fill="url(#side)" stroke="#67E8F9" stroke-opacity=".7" stroke-width="3"/>
+<path d="M891 119V455L1040 512" stroke="#7DD3FC" stroke-opacity=".48" stroke-width="2"/>
+<!-- tower front face -->
+<path d="M455 165L700 214V612L455 542V165Z" fill="url(#front)" stroke="#BAE6FD" stroke-width="3"/>
+<path d="M455 165L642 72L891 119L700 214L455 165Z" fill="#BAE6FD" stroke="#E0F2FE" stroke-width="3"/>
+<!-- roof details -->
+<path d="M642 72L642 37L891 82V119" stroke="#67E8F9" stroke-width="3" stroke-linejoin="round"/>
+<path d="M700 214L700 612" stroke="#E0F2FE" stroke-opacity=".5" stroke-width="2"/>
+<!-- facade window grids front -->
+<g stroke="#0C4A6E" stroke-opacity=".55" stroke-width="3">
+ <path d="M485 202V550M535 212V565M585 222V580M635 232V594M675 240V606"/>
+ <path d="M455 252L700 301M455 318L700 367M455 384L700 433M455 450L700 499M455 516L700 565"/>
+</g>
+<g fill="#0E7490" fill-opacity=".55">
+ <path d="M490 218L525 225V269L490 262Z"/><path d="M540 228L575 235V279L540 272Z"/><path d="M590 238L625 245V289L590 282Z"/>
+ <path d="M490 284L525 291V335L490 328Z"/><path d="M540 294L575 301V345L540 338Z"/><path d="M590 304L625 311V355L590 348Z"/>
+ <path d="M490 350L525 357V401L490 394Z"/><path d="M540 360L575 367V411L540 404Z"/><path d="M590 370L625 377V421L590 414Z"/>
+ <path d="M490 416L525 423V467L490 460Z"/><path d="M540 426L575 433V477L540 470Z"/><path d="M590 436L625 443V487L590 480Z"/>
+</g>
+<!-- side windows -->
+<g stroke="#67E8F9" stroke-opacity=".45" stroke-width="3">
+ <path d="M745 238V599M794 263V584M844 238V570M895 213V555M945 185V540"/>
+ <path d="M700 282L1040 365M700 350L1040 433M700 418L1040 484M700 486L1040 536M700 554L1040 586"/>
+</g>
+<g fill="#38BDF8" fill-opacity=".36">
+ <path d="M757 257L782 263V305L757 299Z"/><path d="M807 282L832 288V330L807 324Z"/><path d="M857 257L882 263V305L857 299Z"/><path d="M907 232L932 238V280L907 274Z"/><path d="M957 207L982 213V255L957 249Z"/>
+ <path d="M757 325L782 331V373L757 367Z"/><path d="M807 350L832 356V398L807 392Z"/><path d="M857 325L882 331V373L857 367Z"/><path d="M907 300L932 306V348L907 342Z"/><path d="M957 275L982 281V323L957 317Z"/>
+</g>
+<!-- podium -->
+<path d="M350 542L700 612L1040 512L1085 548L700 675L300 585L350 542Z" fill="#0B2948" stroke="#38BDF8" stroke-opacity=".65" stroke-width="3"/>
+<path d="M350 542L700 612L700 675L300 585V566L350 542Z" fill="#164E75" fill-opacity=".85"/>
+<path d="M700 612L1040 512L1085 548L700 675V612Z" fill="#08233D"/>
+<path d="M405 563L700 623L990 537" stroke="#FBBF24" stroke-width="4" stroke-linecap="round"/>
+<!-- trees -->
+<g stroke="#34D399" stroke-width="5" stroke-linecap="round"><path d="M235 557V625M1100 506V581"/></g>
+<g fill="#0F766E" stroke="#5EEAD4" stroke-opacity=".55" stroke-width="2"><path d="M235 500L194 568H276L235 500Z"/><path d="M235 526L181 594H289L235 526Z"/><path d="M1100 451L1062 518H1138L1100 451Z"/><path d="M1100 480L1050 546H1150L1100 480Z"/></g>
+<!-- annotation -->
+<g font-family="Arial, Helvetica, sans-serif">
+ <text x="78" y="112" fill="#67E8F9" font-size="17" font-weight="700" letter-spacing="4">ENGINEERING × TECHNOLOGY</text>
+ <text x="78" y="166" fill="#F8FAFC" font-size="38" font-weight="700">Designing what’s next.</text>
+ <text x="80" y="204" fill="#BAE6FD" font-size="18">Civil Engineering • AI • Full-Stack Development</text>
+ <path d="M80 242H270" stroke="url(#gold)" stroke-width="4" stroke-linecap="round"/>
+ <text x="80" y="285" fill="#94A3B8" font-size="14" letter-spacing="2">CONCEPTUAL 3D ARCHITECTURE</text>
+ <text x="80" y="650" fill="#64748B" font-size="13" letter-spacing="2">Z O B A E R I O</text>
+</g>
+</svg>
